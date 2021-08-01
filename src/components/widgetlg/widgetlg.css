@@ -1,0 +1,48 @@
+.wigetlg {
+    flex: 2 ;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow:0px 0px15px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+.widgetlgtable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetlgtitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetlgth{
+    text-align: left;
+    
+}
+.wedgetlguser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetlgimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.widgetlgdate,.widgetlgamount{
+    font-weight: 100;
+
+}
+
+.widgetlgbtn {
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+
+.widgetlgbtn.Approved {
+background-color: lightgreen;
+color: darkgreen;
+}
+

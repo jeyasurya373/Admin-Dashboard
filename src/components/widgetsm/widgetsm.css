@@ -1,0 +1,62 @@
+.wigetsm{
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.widgetsmtitle{
+    font-size: 22px;
+    font-weight: 600;
+}
+.widgetsmimg{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.widgetsmlist{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.widetsmlistiteam{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 0px;
+}
+
+.widgetsmuser{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.widgetsmusername{
+    font-weight: 600;
+
+}
+
+.widgetsmusertitle{
+    font-weight: 300;
+}
+
+.widgetsmbtn{
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeef7;
+    color: #555 ;
+    cursor: pointer;
+
+
+}
+
+.widgetsmicon{
+    font-size: 16px;
+    margin-right:5px;
+}
